@@ -1,0 +1,48 @@
+{
+  "name": "ignews",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "jest --coverage",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "slicemachine": "start-slicemachine"
+  },
+  "dependencies": {
+    "@prismicio/client": "5.1.1",
+    "@prismicio/helpers": "^2.3.6",
+    "@prismicio/react": "^2.5.0",
+    "@prismicio/slice-simulator-react": "^0.2.2",
+    "@stripe/stripe-js": "^1.13.2",
+    "axios": "^1.1.3",
+    "faunadb": "^4.7.1",
+    "jsonwebtoken": "^8.5.1",
+    "next": "10.0.9",
+    "next-auth": "3.29.10",
+    "prismic": "^0.0.1",
+    "prismic-dom": "^2.2.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "sass": "^1.32.8",
+    "stripe": "^11.1.0"
+  },
+  "devDependencies": {
+    "@prismicio/types": "^0.2.4",
+    "@testing-library/dom": "^7.31.2",
+    "@testing-library/jest-dom": "^5.13.0",
+    "@testing-library/react": "^11.2.7",
+    "@types/next-auth": "3.7.1",
+    "@types/node": "^14.14.35",
+    "@types/prismic-dom": "^2.1.1",
+    "@types/react": "^17.0.3",
+    "babel-jest": "^27.0.2",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.0.4",
+    "jest-dom": "^4.0.0",
+    "slice-machine-ui": "^0.5.2",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.2.3"
+  }
+}
